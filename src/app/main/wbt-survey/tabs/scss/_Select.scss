@@ -1,0 +1,26 @@
+$blue_egerie: #274058;
+$orange_egerie: #e94e1b;
+$white_egerie: #fff;
+$success_egerie: #198754;
+$error_egerie: #FFBABB;
+$field_egerie : #f5f5f5;
+.select-question{
+  p{
+    color: $blue_egerie;
+    font-size: 0.8em;
+    padding: 0 1em;
+   }
+  .select{
+    border: 1px solid gray;
+    padding: 0 0.5em;
+    display: flex;
+    align-items: center;
+    border-radius: 0.5em;
+    label{
+      background-color: white;
+    }
+    svg{
+      color: $blue_egerie;
+    }
+  }
+}

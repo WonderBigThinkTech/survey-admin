@@ -1,0 +1,1037 @@
+[
+    {
+        "id" : 1,
+        "title" : "First Survey",
+        "content" : [
+            {
+                "id" : 1,
+                "heading" : "General Question  ",
+                "dataType" : "inputSmallText",
+                "dataTitle" : "Please let me know your name",
+                "required" : true,
+                "dataContent" : [
+                    "John Doe"
+                ],
+                "requiredTrueValue" : "Yes",
+                "errorMessage" : "Please type your name",
+                "answer" : "",
+                "answers" : []
+
+            },
+            {
+                "id" : 2,
+                "heading" : "Please let me know your email address",
+                "dataType" : "inputSmallText",
+                "dataTitle" : "Please let me know your address",
+                "required" : true,
+                "dataContent" : [
+                    "example@gmail.com"
+                ],
+                "requiredTrueValue" : "Yes",
+                "errorMessage" : "Please type your email address",
+                "answer" : "",
+                "answers" : []
+
+            },
+            {
+                "id" : 3,
+                "heading" : "Please choose your gender",
+                "dataType" : "verticalRadio",
+                "dataTitle" : "Please choose your gender",
+                "required" : true,
+                "dataContent" : [
+                    "Male",
+                    "Female",
+                    "Transgender",
+                    "I don't wish to answer"
+                ],
+                "requiredTrueValue" : "Yes",
+                "errorMessage" : "Please choose your gender",
+                "answer" : "",
+                "answers" : []
+
+            },
+            {
+                "id" : 4,
+                "heading" : "Let me know your age",
+                "dataType" : "inputSmallNumber",
+                "dataTitle" : "Let me know your age",
+                "required" : true,
+                "dataContent" : [
+                    "Please type your age"
+                ],
+                "requiredTrueValue" : "Yes",
+                "answer" : "",
+                "answers" : [],
+                "additionalData" : {
+                    "minValue" : 18,
+                    "maxVal" : 100
+                }
+
+            },
+            {
+                "id" : 5,
+                "heading" : "General Question  ",
+                "dataType" : "verticalRadio",
+                "dataTitle" : "Do you consent to provide information?",
+                "required" : true,
+                "dataContent" : [
+                    "Yes",
+                    "No"
+                ],
+                "requiredTrueValue" : "Yes",
+                "answer" : "",
+                "answers" : []
+
+            },
+            {
+                "id" : 6,
+                "heading" : "Occupation",
+                "dataType" : "verticalCheckBox",
+                "dataTitle" : "Occupation",
+                "required" : true,
+                "dataContent" : [
+                    "Researcher",
+                    "Shift Worker",
+                    "Home-Maker",
+                    "Govt employee",
+                    "Corporate Job",
+                    "Other"
+                ],
+                "answer" : "",
+                "answers" : []
+            }
+        ]
+    },
+    {
+        "id" : 2,
+        "title" : "Second Survey",
+        "content" : [
+            {
+                "id" : 1,
+                "heading" : "The Epworth Sleepiness Scale (A scale to measure daytime sleepiness)",
+                "dataType" : "verticalRadio",
+                "dataTitle" : "How likely are you to doze off or fall asleep in the following situations? You should rate your chances of dozing off, not just feeling tired. Even if you have not done some of these things recently try to determine how they would have affected you. For each situation, decide whether or not you would have: ",
+                "required" : false,
+                "dataContent" : [
+                    "No chance of dozing  =0 ",
+                    "Slight chance of dozing  =1",
+                    "Moderate chance of dozing =2 ",
+                    "High chance of dozing  =3 "
+                ],
+                "answer" : "",
+                "answers" : []
+            },
+            {
+                "id" : 2,
+                "heading" : "Sitting and Reading ",
+                "dataType" : "verticalRadio",
+                "dataTitle" : "Sitting and Reading ",
+                "required" : false,
+                "lowerLimit" : "No chance of dozing",
+                "upperLimit" : "High chance of dozing ",
+                "dataContent" : [
+                    "0",
+                    "1",
+                    "2",
+                    "3"
+                ],
+                "answer" : "",
+                "answers" : []
+            },
+            {
+                "id" : 3,
+                "heading" : "Watching TV",
+                "dataType" : "verticalRadio",
+                "dataTitle" : "Watching TV",
+                "required" : true,
+                "lowerLimit" : "No chance of dozing",
+                "upperLimit" : "High chance of dozing ",
+                "dataContent" : [
+                    "0",
+                    "1",
+                    "2",
+                    "3"
+                ],
+                "answer" : "",
+                "answers" : []
+            },
+            {
+                "id" : 4,
+                "heading" : "Sitting inactive in public places(eg., a theatre or a meeting)",
+                "dataType" : "verticalRadio",
+                "dataTitle" : "Sitting inactive in public places(eg., a theatre or a meeting)",
+                "required" : true,
+                "lowerLimit" : "No chance of dozing",
+                "upperLimit" : "High chance of dozing ",
+                "dataContent" : [
+                    "0",
+                    "1",
+                    "2",
+                    "3"
+                ],
+                "answer" : "",
+                "answers" : []
+            },
+            {
+                "id" : 5,
+                "heading" : "As a passenger in a car for an hour without a break",
+                "dataType" : "verticalRadio",
+                "dataTitle" : "As a passenger in a car for an hour without a break",
+                "required" : true,
+                "lowerLimit" : "No chance of dozing",
+                "upperLimit" : "High chance of dozing ",
+                "dataContent" : [
+                    "0",
+                    "1",
+                    "2",
+                    "3"
+                ],
+                "answer" : "",
+                "answers" : []
+            },
+            {
+                "id" : 6,
+                "heading" : "Lying down to rest in the afternoon when circumstances permit",
+                "dataType" : "verticalRadio",
+                "dataTitle" : "Lying down to rest in the afternoon when circumstances permit",
+                "required" : true,
+                "lowerLimit" : "No chance of dozing",
+                "upperLimit" : "High chance of dozing ",
+                "dataContent" : [
+                    "0",
+                    "1",
+                    "2",
+                    "3"
+                ],
+                "answer" : "",
+                "answers" : []
+            },
+            {
+                "id" : 7,
+                "heading" : "Sitting and talking to someone",
+                "dataType" : "verticalRadio",
+                "dataTitle" : "Sitting and talking to someone",
+                "required" : true,
+                "lowerLimit" : "No chance of dozing",
+                "upperLimit" : "High chance of dozing ",
+                "dataContent" : [
+                    "0",
+                    "1",
+                    "2",
+                    "3"
+                ],
+                "answer" : "",
+                "answers" : []
+            },
+            {
+                "id" : 8,
+                "heading" : "Sitting quietly after lunch without alcohol",
+                "dataType" : "verticalRadio",
+                "dataTitle" : "Sitting quietly after lunch without alcohol",
+                "required" : true,
+                "lowerLimit" : "No chance of dozing",
+                "upperLimit" : "High chance of dozing ",
+                "dataContent" : [
+                    "0",
+                    "1",
+                    "2",
+                    "3"
+                ],
+                "answer" : "",
+                "answers" : []
+            }
+        ]
+    },
+    {
+        "id" : 3,
+        "title" : "Third Survey",
+        "content" : [
+            {
+                "id" : 1,
+                "heading" : "Pittsburgh Sleep Quality Index (PSQI)",
+                "dataType" : "verticalRadio",
+                "dataTitle" : "During the past month, what time have you usually gone to bed at night?",
+                "required" : true,
+                "dataContent" : [
+                    "8:00 – 10:00 PM",
+                    "10:00 - 11:00 PM",
+                    "11:00 PM - 12:00 AM",
+                    "12:00 - 2:00 AM",
+                    "after 2:00 AM"
+                ]
+            },
+            {
+                "id" : 2,
+                "heading" : "During the past month, how long (in minutes) has it usually taken you to fall asleep each night?",
+                "dataType" : "verticalRadio",
+                "dataTitle" : "During the past month, how long (in minutes) has it usually taken you to fall asleep each night?",
+                "required" : true,
+                "dataContent" : [
+                    "10 - 15",
+                    "15 - 30",
+                    "30 - 45",
+                    "45 - 60",
+                    "more than 60 mins"
+                ]
+            },
+            {
+                "id" : 3,
+                "heading" : "During the past month, what time have you usually gotten up in the morning?",
+                "dataType" : "verticalRadio",
+                "dataTitle" : "During the past month, what time have you usually gotten up in the morning?",
+                "required" : true,
+                "dataContent" : [
+                    "Before 5:00 am",
+                    "5:00 - 6:30 am",
+                    "6:30 - 7:45 am",
+                    "7:45 - 9:45 am",
+                    "9:45 - 11:00 am",
+                    "After 11:00 am"
+                ]
+            },
+            {
+                "id" : 4,
+                "heading" : "During the past month, how many hours of actual sleep did you get at night? (This may be different than the number of hours you spent in bed.)",
+                "dataType" : "verticalRadio",
+                "dataTitle" : "During the past month, how many hours of actual sleep did you get at night? (This may be different than the number of hours you spent in bed.)",
+                "required" : true,
+                "dataContent" : [
+                    "less than 4 hours",
+                    "4 - 5 hours",
+                    "5 - 6 hours",
+                    "6 - 7 hours",
+                    "7 - 8 hours",
+                    "8 - 9 hours",
+                    "9 - 10 hours",
+                    "more than 10 hours"
+                ]
+            },
+            {
+                "id" : 5,
+                "heading" : "During the past month, how often have you had more trouble sleeping because you can't get to sleep within 30 minutes.",
+                "dataType" : "verticalRadio",
+                "dataTitle" : "During the past month, how often have you had more trouble sleeping because you can't get to sleep within 30 minutes.",
+                "required" : true,
+                "dataContent" : [
+                    "Not during the past month",
+                    "Less than once a week",
+                    "Once or twice a week",
+                    "Three or more times a week"
+                ]
+            },
+            {
+                "id" : 6,
+                "heading" : "During the past month, how often have you had more trouble sleeping because you wake up in the middle of the night or early morning",
+                "dataType" : "verticalRadio",
+                "dataTitle" : "During the past month, how often have you had more trouble sleeping because you wake up in the middle of the night or early morning",
+                "required" : true,
+                "dataContent" : [
+                    "Not during the past month",
+                    "Less than once a week",
+                    "Once or twice a week",
+                    "Three or more times a week"
+                ]
+            },
+            {
+                "id" : 7,
+                "heading" : "During the past month, how often have you had more trouble sleeping because you have to get up to use the bathroom",
+                "dataType" : "verticalRadio",
+                "dataTitle" : "During the past month, how often have you had more trouble sleeping because you have to get up to use the bathroom",
+                "required" : true,
+                "dataContent" : [
+                    "Not during the past month",
+                    "Less than once a week",
+                    "Once or twice a week",
+                    "Three or more times a week"
+                ]
+            },
+            {
+                "id" : 8,
+                "heading" : "During the past month, how often have you had more trouble sleeping because you cannot breathe comfortably",
+                "dataType" : "verticalRadio",
+                "dataTitle" : "During the past month, how often have you had more trouble sleeping because you cannot breathe comfortably",
+                "required" : true,
+                "dataContent" : [
+                    "Not during the past month",
+                    "Less than once a week",
+                    "Once or twice a week",
+                    "Three or more times a week"
+                ]
+            },
+            {
+                "id" : 9,
+                "heading" : "During the past month, how often have you had more trouble sleeping because you cough or snore loudly",
+                "dataType" : "verticalRadio",
+                "dataTitle" : "During the past month, how often have you had more trouble sleeping because you cough or snore loudly",
+                "required" : true,
+                "dataContent" : [
+                    "Not during the past month",
+                    "Less than once a week",
+                    "Once or twice a week",
+                    "Three or more times a week"
+                ]
+            },
+            {
+                "id" : 10,
+                "heading" : "During the past month, how often have you had more trouble sleeping because you feel too cold",
+                "dataType" : "verticalRadio",
+                "dataTitle" : "During the past month, how often have you had more trouble sleeping because you feel too cold",
+                "required" : true,
+                "dataContent" : [
+                    "Not during the past month",
+                    "Less than once a week",
+                    "Once or twice a week",
+                    "Three or more times a week"
+                ]
+            },
+            {
+                "id" : 11,
+                "heading" : "During the past month, how often have you had more trouble sleeping because you feel too hot",
+                "dataType" : "verticalRadio",
+                "dataTitle" : "During the past month, how often have you had more trouble sleeping because you feel too hot",
+                "required" : true,
+                "dataContent" : [
+                    "Not during the past month",
+                    "Less than once a week",
+                    "Once or twice a week",
+                    "Three or more times a week"
+                ]
+            },
+            {
+                "id" : 12,
+                "heading" : "During the past month, how often have you had more trouble sleeping because you have bad dreams",
+                "dataType" : "verticalRadio",
+                "dataTitle" : "During the past month, how often have you had more trouble sleeping because you have bad dreams",
+                "required" : true,
+                "dataContent" : [
+                    "Not during the past month",
+                    "Less than once a week",
+                    "Once or twice a week",
+                    "Three or more times a week"
+                ]
+            },
+            {
+                "id" : 13,
+                "heading" : "During the past month, how often have you had more trouble sleeping because you have pain",
+                "dataType" : "verticalRadio",
+                "dataTitle" : "During the past month, how often have you had more trouble sleeping because you have pain",
+                "required" : true,
+                "dataContent" : [
+                    "Not during the past month",
+                    "Less than once a week",
+                    "Once or twice a week",
+                    "Three or more times a week"
+                ]
+            },
+            {
+                "id" : 14,
+                "heading" : "",
+                "dataType" : "inputSmallText",
+                "dataTitle" : "In a day, how much time do you spend sitting?",
+                "required" : false,
+                "dataContent" : [
+                    "Your answer"
+                ]
+            },
+            {
+                "id" : 15,
+                "heading" : "During the past month, how often have you taken medicine to help you sleep (prescribed or “over the counter”)?",
+                "dataType" : "verticalRadio",
+                "dataTitle" : "During the past month, how often have you taken medicine to help you sleep (prescribed or “over the counter”)?",
+                "required" : true,
+                "dataContent" : [
+                    "Not during the past month",
+                    "Less than once a week",
+                    "Once or twice a week",
+                    "Three or more times a week"
+                ]
+            },
+            {
+                "id" : 16,
+                "heading" : "During the past month, how often have you had trouble staying awake while driving, eating meals, or engaging in social activity?",
+                "dataType" : "verticalRadio",
+                "dataTitle" : "During the past month, how often have you had trouble staying awake while driving, eating meals, or engaging in social activity?",
+                "required" : true,
+                "dataContent" : [
+                    "Not during the past month",
+                    "Less than once a week",
+                    "Once or twice a week",
+                    "Three or more times a week"
+                ]
+            },
+            {
+                "id" : 17,
+                "heading" : "During the past month, how much of a problem has it been for you to keep up enough enthusiasm to get things done?",
+                "dataType" : "verticalRadio",
+                "dataTitle" : "During the past month, how much of a problem has it been for you to keep up enough enthusiasm to get things done?",
+                "required" : true,
+                "dataContent" : [
+                    "No problem at all",
+                    "Only a very slight problem",
+                    "Somewhat of a problem",
+                    "A very big problem"
+                ]
+            },
+            {
+                "id" : 18,
+                "heading" : "During the past month, how would you rate your sleep quality overall?",
+                "dataType" : "verticalRadio",
+                "dataTitle" : "During the past month, how would you rate your sleep quality overall?",
+                "required" : true,
+                "dataContent" : [
+                    "Very good",
+                    "Fairly good",
+                    "Fairly bad",
+                    "Very bad"
+                ]
+            },
+            {
+                "id" : 19,
+                "heading" : "Do you have a bed partner or roommate?",
+                "dataType" : "verticalRadio",
+                "dataTitle" : "Do you have a bed partner or roommate?",
+                "required" : true,
+                "dataContent" : [
+                    "Not during the past month",
+                    "Less than once a week",
+                    "Once or twice a week",
+                    "Three or more times in a week"
+                ]
+            }
+        ]
+    },
+    {
+        "id" : 4,
+        "title" : "Fourth Survey",
+        "content" : [
+            {
+                "id" : 1,
+                "heading" : "If you have a roommate or bed partner, ask him/her how often in the past month you have had loud snoring",
+                "dataType" : "verticalRadio",
+                "dataTitle" : "If you have a roommate or bed partner, ask him/her how often in the past month you have had loud snoring",
+                "required" : true,
+                "dataContent" : [
+                    "Not during the past month",
+                    "Less than once a week",
+                    "Once or twice a week",
+                    "Three or more times a week"
+                ]
+            },
+            {
+                "id" : 2,
+                "heading" : "If you have a roommate or bed partner, ask him/her how often in the past month you have had long pauses between breathes while asleep",
+                "dataType" : "verticalRadio",
+                "dataTitle" : "If you have a roommate or bed partner, ask him/her how often in the past month you have had long pauses between breathes while asleep",
+                "required" : true,
+                "dataContent" : [
+                    "Not during the past month",
+                    "Less than once a week",
+                    "Once or twice a week",
+                    "Three or more times a week"
+                ]
+            },
+            {
+                "id" : 3,
+                "heading" : "If you have a roommate or bed partner, ask him/her how often in the past month you have had legs twitching or jerking while you sleep",
+                "dataType" : "verticalRadio",
+                "dataTitle" : "If you have a roommate or bed partner, ask him/her how often in the past month you have had legs twitching or jerking while you sleep",
+                "required" : true,
+                "dataContent" : [
+                    "Not during the past month",
+                    "Less than once a week",
+                    "Once or twice a week",
+                    "Three or more times a week"
+                ]
+            },
+            {
+                "id" : 4,
+                "heading" : "In a day, how much time do you spend sitting?",
+                "dataType" : "inputSmallText",
+                "dataTitle" : "In a car, while stopped for a few minutes in traffic",
+                "required" : false,
+                "dataContent" : [
+                    "Your answer"
+                ]
+            },
+            {
+                "id" : 5,
+                "heading" : "If you have a roommate or bed partner, ask him/her how often in the past month you have had episodes of disorientation or confusion during sleep",
+                "dataType" : "verticalRadio",
+                "dataTitle" : "If you have a roommate or bed partner, ask him/her how often in the past month you have had episodes of disorientation or confusion during sleep",
+                "required" : true,
+                "dataContent" : [
+                    "Not during the past month",
+                    "Less than once a week",
+                    "Once or twice a week",
+                    "Three or more times a week"
+                ]
+            }
+        ]
+    },
+    {
+        "id" : 5,
+        "title" : "Fifth Survey",
+        "content" : [
+            {
+                "id" : 1,
+                "heading" : "Karolinska Sleepiness Scale: Subjective level of sleepiness at a particular time during the day",
+                "dataType" : "verticalRadio",
+                "dataTitle" : "On this scale subjects indicate which level best reflects the psycho-physical state experienced in the last 10 min.",
+                "required" : true,
+                "dataContent" : [
+                    "Extremely alert",
+                    "Very alert",
+                    "Alert",
+                    "Rather alert",
+                    "Neither alert nor sleepy",
+                    "Some sign of sleepiness",
+                    "Sleepy, but no effort to keep awake",
+                    "Sleepy, but some effort to keep awake",
+                    "Very sleepy, great effort to keep awake, fighting sleep",
+                    "Extremely sleepy, can't keep awake"
+                ]
+            }
+        ]
+    },
+    {
+        "id" : 6,
+        "title" : "Sixth Survey",
+        "content" : [
+            {
+                "id" : 1,
+                "heading" : "Perceived Stress Scale",
+                "dataType" : "verticalRadio",
+                "dataTitle" : "For each question choose from the following alternatives:",
+                "required" : false,
+                "dataContent" : [
+                    "never",
+                    "almost never",
+                    "sometimes",
+                    "fairly often",
+                    "very often"
+                ]
+            },
+            {
+                "id" : 2,
+                "heading" : "In the last month, how often have you been upset because of something that  happened unexpectedly?",
+                "dataType" : "verticalRadio",
+                "dataTitle" : "In the last month, how often have you been upset because of something that  happened unexpectedly?",
+                "required" : true,
+                "lowerLimit" : "Never",
+                "upperLimit" : "very often",
+                "dataContent" : [
+                    "0",
+                    "1",
+                    "2",
+                    "3",
+                    "4"
+                ]
+            },
+            {
+                "id" : 3,
+                "heading" : "In the last month, how often have you felt that you were unable to control the important things in your life?",
+                "dataType" : "verticalRadio",
+                "dataTitle" : "In the last month, how often have you felt that you were unable to control the important things in your life?",
+                "required" : true,
+                "lowerLimit" : "Never",
+                "upperLimit" : "very often",
+                "dataContent" : [
+                    "0",
+                    "1",
+                    "2",
+                    "3",
+                    "4"
+                ]
+            },
+            {
+                "id" : 4,
+                "heading" : "In the last month, how often have you felt nervous and stressed?",
+                "dataType" : "verticalRadio",
+                "dataTitle" : "In the last month, how often have you felt nervous and stressed?",
+                "required" : true,
+                "lowerLimit" : "Never",
+                "upperLimit" : "very often",
+                "dataContent" : [
+                    "0",
+                    "1",
+                    "2",
+                    "3",
+                    "4"
+                ]
+            },
+            {
+                "id" : 5,
+                "heading" : "In the last month, how often have you felt confident about your ability to handle your personal problems?",
+                "dataType" : "verticalRadio",
+                "dataTitle" : "In the last month, how often have you felt confident about your ability to handle your personal problems?",
+                "required" : true,
+                "lowerLimit" : "Never",
+                "upperLimit" : "very often",
+                "dataContent" : [
+                    "0",
+                    "1",
+                    "2",
+                    "3",
+                    "4"
+                ]
+            },
+            {
+                "id" : 6,
+                "heading" : "In the last month, how often have you felt that things were going your way?",
+                "dataType" : "verticalRadio",
+                "dataTitle" : "In the last month, how often have you felt that things were going your way?",
+                "required" : true,
+                "lowerLimit" : "Never",
+                "upperLimit" : "very often",
+                "dataContent" : [
+                    "0",
+                    "1",
+                    "2",
+                    "3",
+                    "4"
+                ]
+            },
+            {
+                "id" : 7,
+                "heading" : "In the last month, how often have you found that you could not cope with all the things that you had to do?",
+                "dataType" : "verticalRadio",
+                "dataTitle" : "In the last month, how often have you found that you could not cope with all the things that you had to do?",
+                "required" : true,
+                "lowerLimit" : "Never",
+                "upperLimit" : "very often",
+                "dataContent" : [
+                    "0",
+                    "1",
+                    "2",
+                    "3",
+                    "4"
+                ]
+            },
+            {
+                "id" : 8,
+                "heading" : "In the last month, how often have you been able to control irritations in your life?",
+                "dataType" : "verticalRadio",
+                "dataTitle" : "In the last month, how often have you been able to control irritations in your life?",
+                "required" : true,
+                "lowerLimit" : "Never",
+                "upperLimit" : "very often",
+                "dataContent" : [
+                    "0",
+                    "1",
+                    "2",
+                    "3",
+                    "4"
+                ]
+            },
+            {
+                "id" : 9,
+                "heading" : "In the last month, how often have you felt that you were on top of things?",
+                "dataType" : "verticalRadio",
+                "dataTitle" : "In the last month, how often have you felt that you were on top of things?",
+                "required" : true,
+                "lowerLimit" : "Never",
+                "upperLimit" : "very often",
+                "dataContent" : [
+                    "0",
+                    "1",
+                    "2",
+                    "3",
+                    "4"
+                ]
+            },
+            {
+                "id" : 10,
+                "heading" : "In the last month, how often have you been angered because of things that happened that were outside of your control?",
+                "dataType" : "verticalRadio",
+                "dataTitle" : "In the last month, how often have you been angered because of things that happened that were outside of your control?",
+                "required" : true,
+                "lowerLimit" : "Never",
+                "upperLimit" : "very often",
+                "dataContent" : [
+                    "0",
+                    "1",
+                    "2",
+                    "3",
+                    "4"
+                ]
+            },
+            {
+                "id" : 11,
+                "heading" : "In the last month, how often have you felt difficulties were piling up so high that you could not overcome them?",
+                "dataType" : "verticalRadio",
+                "dataTitle" : "In the last month, how often have you felt difficulties were piling up so high that you could not overcome them?",
+                "required" : true,
+                "lowerLimit" : "Never",
+                "upperLimit" : "very often",
+                "dataContent" : [
+                    "0",
+                    "1",
+                    "2",
+                    "3",
+                    "4"
+                ]
+            }
+        ]
+    },
+    {
+        "id" : 7,
+        "title" : "Seventh Survey",
+        "content" : [
+            {
+                "id" : 1,
+                "heading" : "A self-assessment scale to determine morningness-eveningness in humans",
+                "dataType" : "verticalRadio",
+                "dataTitle" : "What time would you get up if you were entirely free to plan your day?",
+                "required" : true,
+                "dataContent" : [
+                    "5:00 - 6:30 am",
+                    "6:30 - 7:45 am",
+                    "7:45 - 9:45 am",
+                    "9:45 - 11:00 am",
+                    "11:00 - 12:00 pm",
+                    "12:00 pm - 5:00 pm"
+                ]
+            },
+            {
+                "id" : 2,
+                "heading" : "What time would you go to bed if you were entirely free to plan your evening?",
+                "dataType" : "verticalRadio",
+                "dataTitle" : "What time would you go to bed if you were entirely free to plan your evening?",
+                "required" : true,
+                "dataContent" : [
+                    "8:00 - 9:00 pm",
+                    "9:00 - 10:15 pm",
+                    "10:15 - 12:30 am",
+                    "12:30 - 1:45 am",
+                    "1:45 - 3:00 am",
+                    "3:00 am - 8:00 pm"
+                ]
+            },
+            {
+                "id" : 3,
+                "heading" : "If there is a specific time at which you have to get up in the morning, to what extent do you depend on being woken up by an alarm clock?",
+                "dataType" : "verticalRadio",
+                "dataTitle" : "If there is a specific time at which you have to get up in the morning, to what extent do you depend on being woken up by an alarm clock?",
+                "required" : true,
+                "dataContent" : [
+                    "Not at all dependent",
+                    "Slightly dependent",
+                    "Fairly dependent",
+                    "Very dependent"
+                ]
+            },
+            {
+                "id" : 4,
+                "heading" : "How easy do you find it to get up in the morning (when you are not woken up unexpectedly)?",
+                "dataType" : "verticalRadio",
+                "dataTitle" : "How easy do you find it to get up in the morning (when you are not woken up unexpectedly)?",
+                "required" : true,
+                "dataContent" : [
+                    "Not at all easy",
+                    "Not very easy",
+                    "Fairly easy",
+                    "Very easy"
+                ]
+            },
+            {
+                "id" : 5,
+                "heading" : "How alert do you feel during the first half hour after you wake up in the morning?",
+                "dataType" : "verticalRadio",
+                "dataTitle" : "How alert do you feel during the first half hour after you wake up in the morning?",
+                "required" : true,
+                "dataContent" : [
+                    "Not at all alert",
+                    "Slightly alert",
+                    "Fairly alert",
+                    "Very alert"
+                ]
+            },
+            {
+                "id" : 6,
+                "heading" : "How hungry do you feel during the first half-hour after you wake up in the morning?",
+                "dataType" : "verticalRadio",
+                "dataTitle" : "How hungry do you feel during the first half-hour after you wake up in the morning?",
+                "required" : true,
+                "dataContent" : [
+                    "Not at all hungry",
+                    "Slightly hungry",
+                    "Fairly hungry",
+                    "Very hungry"
+                ]
+            },
+            {
+                "id" : 7,
+                "heading" : "During the first half-hour after you wake up in the morning, how tired do you feel?",
+                "dataType" : "verticalRadio",
+                "dataTitle" : "During the first half-hour after you wake up in the morning, how tired do you feel?",
+                "required" : true,
+                "dataContent" : [
+                    "Very tired",
+                    "Fairly tired",
+                    "Fairly refreshed",
+                    "Very refreshed"
+                ]
+            },
+            {
+                "id" : 8,
+                "heading" : "If you have no commitments the next day, what time would you go to bed compared to your usual bedtime?",
+                "dataType" : "verticalRadio",
+                "dataTitle" : "If you have no commitments the next day, what time would you go to bed compared to your usual bedtime?",
+                "required" : true,
+                "dataContent" : [
+                    "Seldom or never later",
+                    "Less than one hour later",
+                    "1-2 hours later",
+                    "More than two hours later"
+                ]
+            },
+            {
+                "id" : 9,
+                "heading" : "You have decided to engage in some physical exercise. A friend suggests that you do this for one hour twice a week and the best time for him is between 7:00 – 8:00 am. Bearing in mind nothing but your own internal “clock”, how do you think you would perform?",
+                "dataType" : "verticalRadio",
+                "dataTitle" : "You have decided to engage in some physical exercise. A friend suggests that you do this for one hour twice a week and the best time for him is between 7:00 – 8:00 am. Bearing in mind nothing but your own internal “clock”, how do you think you would perform?",
+                "required" : true,
+                "dataContent" : [
+                    "Would be in good form",
+                    "Would be in reasonable form",
+                    "Would find it difficult",
+                    "Would find it very difficult"
+                ]
+            },
+            {
+                "id" : 10,
+                "heading" : "At what time of day do you feel you become tired as a result of need for sleep?",
+                "dataType" : "verticalRadio",
+                "dataTitle" : "At what time of day do you feel you become tired as a result of need for sleep?",
+                "required" : true,
+                "dataContent" : [
+                    "8:00 – 9:00 PM",
+                    "9:00 – 10:15 PM",
+                    "10:15 PM – 12:45 AM",
+                    "12:45 – 2:00 AM",
+                    "2:00 – 3:00 AM"
+                ]
+            },
+            {
+                "id" : 11,
+                "heading" : "You want to be at your peak performance for a test that you know is going to be mentally exhausting and will last for two hours. You are entirely free to plan your day. Considering only your own internal “clock”, which ONE of the four testing times would you choose?",
+                "dataType" : "verticalRadio",
+                "dataTitle" : "You want to be at your peak performance for a test that you know is going to be mentally exhausting and will last for two hours. You are entirely free to plan your day. Considering only your own internal “clock”, which ONE of the four testing times would you choose?",
+                "required" : true,
+                "dataContent" : [
+                    "8:00 AM – 10:00 AM",
+                    "11:00 AM – 1:00 PM",
+                    "3:00 PM – 5:00 PM",
+                    "7:00 PM – 9:00 PM"
+                ]
+            },
+            {
+                "id" : 12,
+                "heading" : "If you got into bed at 11:00 PM, how tired would you be?",
+                "dataType" : "verticalRadio",
+                "dataTitle" : "If you got into bed at 11:00 PM, how tired would you be?",
+                "required" : true,
+                "dataContent" : [
+                    "Not at all tired",
+                    "A little tired",
+                    "Fairly tired",
+                    "Very tired"
+                ]
+            },
+            {
+                "id" : 13,
+                "heading" : "For some reason, you have gone to bed several hours later than usual, but there is no need to get up at any particular time the next morning. Which ONE of the following are you most likely to do?",
+                "dataType" : "verticalRadio",
+                "dataTitle" : "For some reason, you have gone to bed several hours later than usual, but there is no need to get up at any particular time the next morning. Which ONE of the following are you most likely to do?",
+                "required" : true,
+                "dataContent" : [
+                    "Will wake up at usual time, but will NOT fall back asleep",
+                    "Will wake up at usual time and will doze thereafter",
+                    "Will wake up at usual time but will fall asleep again",
+                    "Will NOT wake up until later than usual"
+                ]
+            },
+            {
+                "id" : 14,
+                "heading" : "One night you have to remain awake between 4:00 – 6:00 AM in order to carry out a night watch. You have no commitments the next day. Which ONE of the alternatives will suit you best?",
+                "dataType" : "verticalRadio",
+                "dataTitle" : "One night you have to remain awake between 4:00 – 6:00 AM in order to carry out a night watch. You have no commitments the next day. Which ONE of the alternatives will suit you best?",
+                "required" : true,
+                "dataContent" : [
+                    "Would NOT go to bed until watch was over",
+                    "Would take a nap before and sleep after",
+                    "Would take a good sleep before and nap after",
+                    "Would sleep only before watch"
+                ]
+            },
+            {
+                "id" : 15,
+                "heading" : "You have to do two hours of hard physical work. You are entirely free to plan your day and considering only your own internal “clock” Which one of the following times would you choose?",
+                "dataType" : "verticalRadio",
+                "dataTitle" : "You have to do two hours of hard physical work. You are entirely free to plan your day and considering only your own internal “clock” Which one of the following times would you choose?",
+                "required" : true,
+                "dataContent" : [
+                    "8:00 AM – 10:00 AM",
+                    "11:00 AM – 1:00 PM",
+                    "3:00 PM – 5:00 PM",
+                    "7:00 PM – 9:00 PM"
+                ]
+            },
+            {
+                "id" : 16,
+                "heading" : "You have decided to engage in hard physical exercise. A friend suggests that you do this for one hour twice a week and the best time for him is between 10:00 – 11:00 PM. Bearing in mind nothing else but your own internal “clock” how well do you think you would perform?",
+                "dataType" : "verticalRadio",
+                "dataTitle" : "You have decided to engage in hard physical exercise. A friend suggests that you do this for one hour twice a week and the best time for him is between 10:00 – 11:00 PM. Bearing in mind nothing else but your own internal “clock” how well do you think you would perform?",
+                "required" : true,
+                "dataContent" : [
+                    "Would be in good form",
+                    "Would be in reasonable form",
+                    "Would find it difficult",
+                    "Would find it very difficult"
+                ]
+            },
+            {
+                "id" : 17,
+                "heading" : "Suppose that you can choose your own work hours. Assume that you worked a FIVE-hour day (including breaks) and that your job was interesting and paid by results). Which FIVE CONSECUTIVE HOURS would you select?",
+                "dataType" : "verticalRadio",
+                "dataTitle" : "Suppose that you can choose your own work hours. Assume that you worked a FIVE-hour day (including breaks) and that your job was interesting and paid by results). Which FIVE CONSECUTIVE HOURS would you select?",
+                "required" : true,
+                "dataContent" : [
+                    "5 hours starting between 4:00 AM and 8:00 AM",
+                    "5 hours starting between 8:00 AM and 9:00 AM",
+                    "5 hours starting between 9:00 AM and 2:00 PM",
+                    "5 hours starting between 2:00 PM and 5:00 PM",
+                    "5 hours starting between 5:00 PM and 4:00 AM"
+                ]
+            },
+            {
+                "id" : 18,
+                "heading" : "At what time of the day do you think that you reach your “feeling best” peak?",
+                "dataType" : "verticalRadio",
+                "dataTitle" : "At what time of the day do you think that you reach your “feeling best” peak?",
+                "required" : true,
+                "dataContent" : [
+                    "5:00 – 8:00 AM",
+                    "8:00 – 10:00 AM",
+                    "10:00 AM – 5:00 PM",
+                    "5:00 – 10:00 PM",
+                    "10:00 PM – 5:00 AM"
+                ]
+            },
+            {
+                "id" : 19,
+                "heading" : "One hears about “morning” and “evening” types of people. Which ONE of these types do you consider yourself to be?",
+                "dataType" : "verticalRadio",
+                "dataTitle" : "One hears about “morning” and “evening” types of people. Which ONE of these types do you consider yourself to be?",
+                "required" : true,
+                "dataContent" : [
+                    "Definitely a “morning” type",
+                    "Rather more a “morning” than an “evening” type",
+                    "Rather more an “evening” than a “morning” type",
+                    "Definitely an “evening” type"
+                ]
+            }
+        ]
+    }
+]

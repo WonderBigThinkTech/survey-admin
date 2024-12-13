@@ -1,0 +1,17 @@
+$blue_egerie: #274058;
+$orange_egerie: #e94e1b;
+$white_egerie: #fff;
+$success_egerie: #198754;
+$error_egerie: #FFBABB;
+$field_egerie : #f5f5f5;
+.metric-widget{
+  .metric{
+    background-color : $field_egerie;
+    display: flex;
+    align-items: center;
+    border-radius: 0.5em;
+    svg{
+      color: $blue_egerie;
+    }
+  }
+}
